@@ -57,7 +57,7 @@ export default class Todo extends Component {
                             <label htmlFor="elemet">Chose à faire</label>
                             <input type="text" 
                                     className="form-control form-control-lg"
-                                    name="element"
+                                     name="element"
                                     onChange={this.onChange}
                                     value={this.state.element}
                             />
